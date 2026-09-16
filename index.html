@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="All YONO Games - game listing and download page">
+<title>ALL YONO GAMES</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#111827}
+.hero{background:#7520e8;padding:26px 14px}
+.brand{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:center;gap:14px}
+.logo{width:68px;height:68px;border-radius:15px;background:linear-gradient(145deg,#39d353,#087b25);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:900;font-size:15px;line-height:16px;box-shadow:0 4px 12px #3d087f}
+.brand h1{margin:0;color:#fff;font-size:clamp(32px,7vw,64px);font-weight:900;letter-spacing:-2px}
+.nav{display:flex;justify-content:center;gap:25px;flex-wrap:wrap;padding:24px 10px 20px}
+.nav a{text-decoration:none;color:#6330a5;font-size:16px;font-weight:600}
+main{max-width:1050px;margin:auto;padding:0 16px}
+.featured{text-align:center;padding:15px 0 30px}
+.featured-image{width:228px;height:195px;object-fit:cover;border-radius:16px;background:#7520e8;display:flex;align-items:center;justify-content:center;margin:0 auto;color:#fff;font-weight:900;font-size:22px;text-align:center;line-height:1.3;box-shadow:0 8px 24px rgba(117,32,232,0.3)}
+.featured h2{font-size:clamp(36px,7vw,60px);margin:25px 0 15px;font-weight:900;letter-spacing:-1px}
+.featured p{max-width:750px;margin:0 auto 25px;color:#4b5563;font-size:17px;line-height:1.6}
+.btn{display:block;max-width:590px;margin:0 auto 17px;padding:20px;border-radius:15px;text-align:center;text-decoration:none;font-size:20px;font-weight:700}
+.download-main{background:#7520e8;color:#fff}
+.telegram{border:2px solid #a329cf;color:#a329cf;background:#fff}
+.stats{background:#0d0e13;color:#fff;border-radius:18px;display:grid;grid-template-columns:repeat(4,1fr);margin:30px 0 45px;padding:19px 8px;box-shadow:0 10px 28px #0003}
+.stats div{text-align:center;border-right:1px solid #333;padding:3px 6px}
+.stats div:last-child{border-right:0}
+.stats b{display:block;font-size:20px}
+.stats span{display:block;color:#c7c7c7;font-size:13px;margin-top:5px}
+.list-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:15px}
+.list-head h2{font-size:32px;margin:0}
+select{background:#7520e8;color:#fff;border:0;border-radius:14px;padding:15px 22px;font-size:16px}
+.game{display:flex;align-items:center;gap:16px;border:1px solid #e3e5e8;border-radius:24px;padding:15px;margin:15px 0;box-shadow:0 2px 9px #0000000c}
+.game-img{width:115px;height:115px;border-radius:16px;background:linear-gradient(145deg,#7520e8,#a329cf);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:900;font-size:14px;line-height:1.2;flex:none}
+.game-info{flex:1;min-width:0}
+.game-name{font-size:21px;font-weight:700;margin:0 0 9px;word-break:break-word}
+.game-meta{color:#6b7280;font-size:15px;margin:5px 0}
+.game-bonus{color:#159a7c;font-size:15px;margin-top:9px}
+.game-btn{background:#7520e8;color:#fff;text-decoration:none;border-radius:14px;padding:14px 22px;white-space:nowrap;font-weight:600}
+.info{border-top:1px solid #eee;padding:28px 0}
+.info h2{font-size:28px}
+.info p{color:#4b5563;line-height:1.7}
+.email{color:#7520e8;text-decoration:none;font-weight:600}
+#top{position:fixed;right:17px;bottom:17px;width:52px;height:52px;border:0;border-radius:8px;background:#1600a8;color:#fff;font-size:27px;display:none}
+@media(max-width:650px){
+ .hero{padding:24px 8px}
+ .brand{gap:9px}
+ .logo{width:64px;height:64px}
+ .brand h1{font-size:35px}
+ .nav{gap:14px 18px}
+ .stats{grid-template-columns:repeat(2,1fr);gap:10px}
+ .stats div:nth-child(2){border-right:0}
+ .game{gap:10px;padding:13px}
+ .game-img{width:92px;height:92px;font-size:12px}
+ .game-name{font-size:18px}
+ .game-meta,.game-bonus{font-size:13px}
+ .game-btn{padding:12px 14px;font-size:14px}
+ .list-head h2{font-size:27px}
+ .featured-image{width:200px;height:170px;font-size:18px}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="brand">
+    <div class="logo">YONO<br>GAMES</div>
+    <h1>ALL YONO GAMES</h1>
+  </div>
+</header>
+
+<nav class="nav">
+  <a href="#home">⌂ Home</a>
+  <a href="#about">ⓘ About</a>
+  <a href="#contact">☎ Contact</a>
+  <a href="#disclaimer">⚠ Disclaimer</a>
+  <a href="https://t.me/yonogames_ar" target="_blank" rel="noopener">➤ Telegram</a>
+</nav>
+
+<main id="home">
+
+<section class="featured">
+  <div class="featured-image">ALL<br>YONO<br>GAMES</div>
+  <h2>ALL YONO GAMES</h2>
+  <p>Browse the complete game list below. Download your favourite YONO apps easily.</p>
+  <a class="btn download-main" href="#gameList">All YONO Apps →</a>
+  <a class="btn telegram" href="https://t.me/yonogames_ar" target="_blank" rel="noopener">Join Our Telegram Channel</a>
+</section>
+
+<section class="stats">
+  <div><b>100k</b><span>Downloads</span></div>
+  <div><b>₹10L+</b><span>Daily Activity</span></div>
+  <div><b>4.8 ★</b><span>Ratings</span></div>
+  <div><b>24/7</b><span>Support</span></div>
+</section>
+
+<section>
+  <div class="list-head">
+    <h2>All Games (<span id="count">0</span>)</h2>
+    <select id="sort">
+      <option value="latest">Latest</option>
+      <option value="name">Name</option>
+    </select>
+  </div>
+  <div id="gameList"></div>
+</section>
+
+<section id="about" class="info">
+  <h2>About</h2>
+  <p>Welcome to All YONO Games. This page provides a simple list of games with links supplied by the site owner.</p>
+</section>
+
+<section id="contact" class="info">
+  <h2>Contact</h2>
+  <p>Email: <a class="email" href="mailto:roy020058@gmail.com">roy020058@gmail.com</a></p>
+  <p>Telegram: <a class="email" href="https://t.me/yonogames_ar" target="_blank" rel="noopener">@yonogames_ar</a></p>
+</section>
+
+<section id="disclaimer" class="info">
+  <h2>Disclaimer</h2>
+  <p>This website is an independent information/listing page. Links and game information are provided by the site owner. Users should check the terms, legality, age requirements and applicable rules for any service before using it.</p>
+</section>
+
+</main>
+
+<button id="top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+const games = [
+  { name: "JAIHO 91", link: "https://91jaihoapp.com/?code=VZL9DA9WVNE&t=1788736399" },
+  { name: "YONO RUMMY", link: "https://yonorummy056.com/?code=YWZKUBKQSWQ&t=1788736370" },
+  { name: "YES SPIN", link: "https://www.yesspindaily.com/?code=47TY8HCF44F&t=1788736267" },
+  { name: "SPIN CRUSH", link: "https://bkfadsegtgs.safelyearnmillionsbysharingonepersonaqfxzqyj8.com/?code=FP83RUD7UTR&t=1788736236" },
+  { name: "JAIHO ARCADE", link: "https://jaihoarcade41.com/?code=74S1NU1CNQU&t=1788736200" },
+  { name: "YONO SLOTS", link: "https://www.yonoslotsdhan.com/?code=59YQDE1QEVM&t=1788736166" },
+  { name: "MBM BET", link: "https://mbmbet7.com/?code=0G7XFRY3XGK&t=1788736110" },
+  { name: "MAX RUMMY", link: "https://www.maxrummy3.com/?code=QUMZBM2CMPB&t=1788736057" },
+  { name: "JAIHO WIN", link: "https://jaihowin1.com/?code=1XNFTKD3GQS&t=1788735998" },
+  { name: "ABC RUMMY", link: "https://www.8abcrummy.com/?code=75CLRWY3PUD&t=1788735385" },
+  { name: "HINDI 777", link: "https://www.hindi777agent3.com/?code=ETCR156K5G8&t=1788735247" },
+  { name: "567SLOTS", link: "https://join567slots2.cc/?code=4NYMRHDXWGV&t=1788735029" },
+  { name: "LOVE RUMMY", link: "https://www.555loverummy.com/?code=AFCBRNA3E9P&t=1788734897" },
+  { name: "RUMMY 888", link: "https://rummy888vip49.com/?code=7WTRHNDQW72&t=1788734727" },
+  { name: "YONO ARCADE", link: "https://yono4.com/?code=96LTCFT9B9B&t=1788734400" },
+  { name: "SPIN WINNER", link: "https://despinwinner.com/?code=QVTN6HDYNPL&t=1788734362" },
+  { name: "JAIHO SLOTS", link: "https://www.jaihoslots15.com/?code=EGPKY36NJMF&t=1788734330" },
+  { name: "IND CLUB", link: "https://indclub95.com/?code=34U7BNGCDC5&t=1788734299" },
+  { name: "IND RUMMY", link: "https://p-pg.com/?code=2BAKT8BDKWS&t=1788734271" },
+  { name: "INR RUMMY", link: "https://inrrummysvip1.com/?code=JMQ5V3E4372&t=1788734225" },
+  { name: "SPIN 777", link: "https://spin777cc.com/?code=YLWZDYM56AC&t=1788734192" },
+  { name: "GOGO RUMMY", link: "https://www.gogorummy8.com/?code=V4U5P84TZC7&t=1788734153" },
+  { name: "GOLD RUMMY", link: "https://goldrummy15.com/?code=JLXPZEBBAUE&t=1788734045" },
+  { name: "YONO GAMES", link: "https://yonogames8.com/?code=GK19UQ134XE&t=1788734018" },
+  { name: "RUMMY LUDO", link: "https://rummyludo8.download/?code=UWP12EXRGFK&t=1788733938" },
+  { name: "JOY RUMMY", link: "https://joyrummyagent.vip/?code=SXXC9YFGV2B&t=1788733824" },
+  { name: "RUMBLE RUMMY", link: "https://www.rumblerummy1.club/?code=RS38592JR62&t=1788733623" },
+  { name: "OK RUMMY", link: "https://www.okrummy14.com/?code=27BFG84GF4E&t=1788733527" },
+  { name: "DHAN GAME", link: "https://dhanwinchannel.com/?code=47TNYCWP48U&t=1788733226" },
+  { name: "DIWA X", link: "https://diwaxshare.top?pid=381182880&channel=2010002&pkg=com.diwax002.app" },
+  { name: "DIWA VIP", link: "https://diwavipshare.bet?pid=490054861&channel=2050001&t=pdd2&pkg=com.diwavip.h5" },
+  { name: "RUMMY 91", link: "https://www.drummy91.com/?code=4KTQZB1SX1V&t=1788732633" },
+  { name: "SAGA SLOTS", link: "https://www.sagaslots56.com/?code=0QHAMEUP8WQ&t=1788732494" },
+  { name: "NETA VIP", link: "https://www.neta3.vip/?code=58HEMXTVB2K" },
+  { name: "YONO VIP", link: "https://yonovipearn.com/?code=9U8K7EHFKYK&t=1788732283" },
+  { name: "BOSS RUMMY", link: "https://bossrummyy.com/?code=LSHPQTA8S2X&t=1788732158" },
+  { name: "TOP RUMMY", link: "https://toprummy.xyz/?code=7K9CVE9CYN4&t=1788732086" },
+  { name: "YN777", link: "https://www.y754.com/?code=4SWLG4PQJJX&t=1788732003" },
+  { name: "IND SLOTS", link: "https://indslotsfreecash.com/?code=T2QBJQA79L5&t=1788731891" },
+  { name: "SPIN101", link: "https://spin101-a.org/?code=P4CBBVJ7LXP&t=1788731807" },
+  { name: "SLOTS SPIN", link: "https://slotsspinm.com/?code=XJBMGYTPCR8&t=1788731706" },
+  { name: "MAHA GAMES", link: "https://yono-mahagames.com/?code=S3MCDG6B64M&t=1788731599" },
+  { name: "BINGO101", link: "https://bingo101l.com/?code=3WFK5AMNWVX&t=1788731511" },
+  { name: "SPIN GOLD", link: "https://spingolda.com/?code=S9VUDTYPAYR&t=1788731420" },
+  { name: "RUMMY 77", link: "https://rummy77p.net/?code=F3VNX7P1XQ7&t=1788731317" },
+  { name: "SHARE SLOTS", link: "https://shareslots8.com/?code=GFVGE3F5VX4&t=1788731238" },
+  { name: "789 JACKPOTS", link: "https://join789jackpots3.com/?code=VJJ1R87BSNV&t=1788731009" },
+  { name: "BET 213", link: "https://www.bet213.xyz/?code=2QT2Y4W4DJ6&t=1788730782" },
+  { name: "101Z", link: "https://101z11.vip/?code=3981F6KKQKK&t=1788730668" },
+  { name: "CLUB INR", link: "https://clubinrsvip1.net/?code=9VCL6H1MCCF&t=1788730542" },
+  { name: "GAME RUMMY", link: "https://gamerummyk.com/?code=JXA47JL11LY&t=1788754837" },
+  { name: "JAIHO RUMMY", link: "https://jaihorummy.co/?code=E74L3MA8QHU&t=1788883290" },
+  { name: "WIN RUMMY", link: "https://www.winrummy9.com/?code=8JT96LRGWGL&t=1788885849" },
+  { name: "MONEY RUMMY", link: "https://moneyrummya.com/?code=1VKTH8MCWRD&t=1788926472" },
+  { name: "JAIHO SPIN", link: "https://3jaihospinwin.com/?code=4162GL5KMNW&t=1789506609" },
+  { name: "T989", link: "https://download.t989.com/?code=534093" },
+  { name: "777 GAME", link: "https://www.777game8.com/?code=H539P6DKXGZ&t=1789535178" },
+];
+
+function render(list) {
+  const box = document.getElementById("gameList");
+  box.innerHTML = "";
+  list.forEach((g, index) => {
+    const card = document.createElement("div");
+    card.className = "game";
+    const link = g.link || "#";
+    card.innerHTML =
+      '<div class="game-img">YONO<br>GAMES</div>' +
+      '<div class="game-info">' +
+        '<div class="game-name">' + esc(g.name) + '</div>' +
+        '<div class="game-meta">🎮 Game ' + String(index + 1).padStart(2, "0") + '</div>' +
+        '<div class="game-bonus">ℹ Game information</div>' +
+      '</div>' +
+      '<a class="game-btn" href="' + esc(link) + '" target="_blank" rel="noopener">Download</a>';
+    box.appendChild(card);
+  });
+  document.getElementById("count").textContent = list.length;
+}
+
+function esc(value) {
+  return String(value).replace(/[&<>"']/g, function(m) {
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m];
+  });
+}
+
+document.getElementById("sort").addEventListener("change", function() {
+  const list = [...games];
+  if (this.value === "name") list.sort((a, b) => a.name.localeCompare(b.name));
+  render(list);
+});
+
+render(games);
+
+window.addEventListener("scroll", function() {
+  document.getElementById("top").style.display = window.scrollY > 500 ? "block" : "none";
+});
+</script>
+</body>
+</html>
